@@ -18,4 +18,4 @@ sudo cp nah /usr/local/bin
 # Usage
 - The program closes the current active window when you type "yeah", followed by space, or the return key.
 - Use `ctrl+shift+q` to stop the program from executing
-- `nah` requires root permissions to run, to have it run and execute in the background you can simply just run `sudo -b nohup /usr/local/bin/nah >/dev/null 2>&1`. I'd alias `nah`` in your .bashrc to that.
+- `nah` requires root permissions to run, to have it run and execute in the background you can simply just run `sudo -b nohup /usr/local/bin/nah >/dev/null 2>&1`. I'd alias `nah` in your .bashrc to that.
