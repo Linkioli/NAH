@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+
+import keyboard
+import subprocess
+
+def close_window():
+    subprocess.run(["xdotool", "getactivewindow", "windowkill"])
+
+def main():
+    keyboard.add_word_listener("yeah", close_window, triggers = ['space', 'enter'])
+
+    keyboard.wait("ctrl+shift+q")
+
+if __name__ == "__main__":
+    main()
+
